@@ -5,5 +5,6 @@ export default defineConfig({
   plugins: [basicSsl()],
   server: {
     https: true,
+    host: true,
   },
 });
